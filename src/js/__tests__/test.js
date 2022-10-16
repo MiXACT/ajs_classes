@@ -20,10 +20,10 @@ test('testing hero classes', () => {
 	expect(parentHeroNameError).toThrow('NAME error');
 	expect(parentHeroTypeError).toThrow('TYPE error');
 
-	expect(new Bowerman('TestMan', 'Bowerman')).toBeDefined();
-	expect(new Swordsman('TestMan', 'Swordsman')).toBeDefined();
-	expect(new Magician('TestMan', 'Magician')).toBeDefined();
-	expect(new Daemon('TestMan', 'Daemon')).toBeDefined();
-	expect(new Undead('TestMan', 'Undead')).toBeDefined();
-	expect(new Zombie('TestMan', 'Zombie')).toBeDefined();
+	expect(new Bowerman('TestMan')).toBeDefined();
+	expect(new Swordsman('TestMan')).toBeDefined();
+	expect(new Magician('TestMan')).toBeDefined();
+	expect(new Daemon('TestMan')).toBeDefined();
+	expect(new Undead('TestMan')).toBeDefined();
+	expect(new Zombie('TestMan')).toBeDefined();
 });
